@@ -15,78 +15,54 @@ It establishes conventions, constraints, and expectations to ensure consistency,
 ---
 
 ## 📁 Directory Conventions
-~~~plaintext
-app/   
-     Controllers/   
-     Models/
-     Modules/
-          admin/
-          admin_dashboard/
-          ai/
-          ai_analysis/
-          ai_assistant/
-          analytics/
-          api/
-          assets/
-          asset_manager/
-          auth/
-          backups/
-          code_security/
-          core/
-          dashboard/
-          database/
-          integration/
-          intelligence/
-          media/
-          media_manager/
-          messaging/
-          network/
-          network_designer/
-          notifications/
-          permissions/
-          roles/
-          security/
-          services/
-          users/
-          user_manager/
-          user_profiles/
-          user_settings/
-     Services/   
-     Repositories/  
-bootstrap/ 
-config/ 
-database/
-     migrations/
-     seeds/
-     sql/
-public/
-resources/
-     assets/
-          css/
-          fonts/
-          js/
-          icons/
-          img/
-          sass/
-     views/
-          auth/
-               login.php
-               register.php
-               forgot-pass.php
-               reset-pass.php
-               email-pass.php
-          layouts/
-               base.php
-               admin.php
-               user.php
+~~~ plaintext
+app/
+  Controllers/
+  Models/
+  Modules/
+    Admin/
+      Dashboard/
+      Users/
+      Roles/
+      Permissions/
 
-          pages/
-routes/ 
-storage/   
-     logs/   
-     cache/   
-     sessions/ 
-     data/
+    AI/
+      Assistant/
+      Analysis/
+      Intelligence/
+
+    Analytics/
+
+    Api/
+
+    Auth/
+
+    Core/
+
+    Dashboard/
+
+    Integrations/
+
+    Media/
+      Manager/
+
+    Messaging/
+
+    Network/
+      Designer/
+
+    Notifications/
+
+    Security/
+      CodeSecurity/
+
+    User/
+      Manager/
+      Profiles/
+      Settings/
+
+  Services/
+  Repositories/
 ~~~
 ### Rules
 - Business logic → app/
