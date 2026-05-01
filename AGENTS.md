@@ -51,7 +51,9 @@ app/
       HealthController.php
       BackupController.php
       DatabaseToolController.php
+
   Models/
+
   Modules/
     Admin/
       Dashboard/
@@ -80,14 +82,19 @@ app/
       Manager/
       Profiles/
       Settings/
+
   Services/
   Repositories/
+
 bootstrap/
+
 config/
+
 database/
   migrations/
-  seeds/
+  seeders/
   sql/
+
 public/
   index.php
   assets/
@@ -96,6 +103,7 @@ public/
     js/
     icons/
     img/
+
 resources/
   assets/
     sass/
@@ -103,7 +111,6 @@ resources/
     css/
   views/
     admin/
-      .htaccess
       dashboard.php
     auth/
       login.php
@@ -111,12 +118,12 @@ resources/
       forgot-pass.php
       reset-pass.php
       email-pass.php
-    forms/
+    fields/
       email.php
       firstname.php
       lastname.php
       password.php
-      username.php  
+      username.php
     help/
       index.php
     layouts/
@@ -138,16 +145,18 @@ resources/
       dashboard.php
       profile.php
       settings.php
-      .htaccess
+
 routes/
-     routes.php
+  routes.php
+
 storage/
   logs/
   cache/
   sessions/
   data/
   backups/
-.htaccss
+
+.htaccess
 ~~~
 ### Rules
 - Business logic → app/
