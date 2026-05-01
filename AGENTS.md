@@ -18,6 +18,47 @@ It establishes conventions, constraints, and expectations to ensure consistency,
 ~~~ plaintext
 app/
   Controllers/
+    Controller.php
+
+    Web/
+      HomeController.php
+      DashboardController.php
+
+    Auth/
+      LoginController.php
+      RegisterController.php
+      ForgotPasswordController.php
+      ResetPasswordController.php
+      LogoutController.php
+
+    Admin/
+      AdminDashboardController.php
+      UserController.php
+      RoleController.php
+      PermissionController.php
+      SettingsController.php
+
+    Api/
+      V1/
+        AuthController.php
+        UserController.php
+        AnalyticsController.php
+
+    User/
+      ProfileController.php
+      SettingsController.php
+
+    Media/
+      MediaController.php
+      UploadController.php
+
+    Security/
+      CodeSecurityController.php
+
+    System/
+      HealthController.php
+      BackupController.php
+      DatabaseToolController.php
   Models/
   Modules/
     Admin/
