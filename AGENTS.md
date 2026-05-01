@@ -51,9 +51,7 @@ app/
       HealthController.php
       BackupController.php
       DatabaseToolController.php
-
   Models/
-
   Modules/
     Admin/
       Dashboard/
@@ -82,19 +80,14 @@ app/
       Manager/
       Profiles/
       Settings/
-
   Services/
   Repositories/
-
 bootstrap/
-
 config/
-
 database/
   migrations/
   seeders/
   sql/
-
 public/
   index.php
   assets/
@@ -103,7 +96,6 @@ public/
     js/
     icons/
     img/
-
 resources/
   assets/
     sass/
@@ -145,7 +137,6 @@ resources/
       dashboard.php
       profile.php
       settings.php
-
 routes/
   routes.php
 scripts/
