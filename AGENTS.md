@@ -148,15 +148,20 @@ resources/
 
 routes/
   routes.php
-
+scripts/
+  .gitkeep
 storage/
   logs/
   cache/
   sessions/
   data/
   backups/
-
+.gitignore
+.prettierignore
+.prettierrc
 .htaccess
+composer.json
+package.json
 ~~~
 ### Rules
 - Business logic → app/
