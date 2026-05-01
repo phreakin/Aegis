@@ -1,7 +1,7 @@
 # 🛡️ Aegis
 
 <p align="center">
-  <img src="public/assets/img/logo.jpeg" width="120" alt="Aegis Logo" />
+  <img src="public/assets/img/logo.png" width="120" alt="Aegis Logo" />
 </p>
 
 <p align="center">
