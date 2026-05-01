@@ -19,42 +19,34 @@ It establishes conventions, constraints, and expectations to ensure consistency,
 app/
   Controllers/
     Controller.php
-
     Web/
       HomeController.php
       DashboardController.php
-
     Auth/
       LoginController.php
       RegisterController.php
       ForgotPasswordController.php
       ResetPasswordController.php
       LogoutController.php
-
     Admin/
       AdminDashboardController.php
       UserController.php
       RoleController.php
       PermissionController.php
       SettingsController.php
-
     Api/
       V1/
         AuthController.php
         UserController.php
         AnalyticsController.php
-
     User/
       ProfileController.php
       SettingsController.php
-
     Media/
       MediaController.php
       UploadController.php
-
     Security/
       CodeSecurityController.php
-
     System/
       HealthController.php
       BackupController.php
@@ -66,44 +58,96 @@ app/
       Users/
       Roles/
       Permissions/
-
     AI/
       Assistant/
       Analysis/
       Intelligence/
-
     Analytics/
-
     Api/
-
     Auth/
-
     Core/
-
     Dashboard/
-
     Integrations/
-
     Media/
       Manager/
-
     Messaging/
-
     Network/
       Designer/
-
     Notifications/
-
     Security/
       CodeSecurity/
-
     User/
       Manager/
       Profiles/
       Settings/
-
   Services/
   Repositories/
+bootstrap/
+config/
+database/
+  migrations/
+  seeds/
+  sql/
+public/
+  index.php
+  assets/
+    css/
+    fonts/
+    js/
+    icons/
+    img/
+resources/
+  assets/
+    sass/
+    js/
+    css/
+  views/
+    admin/
+      .htaccess
+      dashboard.php
+    auth/
+      login.php
+      register.php
+      forgot-pass.php
+      reset-pass.php
+      email-pass.php
+    forms/
+      email.php
+      firstname.php
+      lastname.php
+      password.php
+      username.php  
+    help/
+      index.php
+    layouts/
+      base.php
+      admin.php
+      user.php
+    pages/
+      privacy.php
+      terms.php
+    partials/
+      datatables.php
+      editor.php
+      footer.php
+      header.php
+      navigation.php
+      styles.php
+      scripts.php
+    users/
+      dashboard.php
+      profile.php
+      settings.php
+      .htaccess
+routes/
+     routes.php
+storage/
+  logs/
+  cache/
+  sessions/
+  data/
+  backups/
+.htaccss
 ~~~
 ### Rules
 - Business logic → app/
