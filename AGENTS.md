@@ -67,27 +67,62 @@ app/
     Auth/
     Core/
     Dashboard/
+    DataMnagement/
+    Documentation/
+    Encryption/
+    FinancialData/
+      BankData/
+      BudgetData/
+      CreditData/
+      CashCardData/
+      TransactionData/
+    HealthData/
+      Doctors/
+      Insurance/
+      Prescriptions/
+    Installer/
     Integrations/
+    Livestream/
     Media/
       Manager/
     Messaging/
     Network/
       Designer/
     Notifications/
+    Reporting/
+    Privacy/
+    Publishing/
     Security/
       CodeSecurity/
+      DataSecurity/
+      UserSecurity/
+    Social/
+      SocialAnalisys/
+      SocialAuth/
+      SocialIntegration/
     User/
       Manager/
       Profiles/
       Settings/
   Services/
   Repositories/
+  Webhooks/
 bootstrap/
 config/
+  aegis.ini
 database/
   migrations/
   seeders/
   sql/
+docs/
+  API.md
+  INSTALLATION.md
+  CONFIGURATION.md
+  CONTRIBUTING.md
+  DATABASE.md
+  CHANGELOG.md
+  PRIVACY.md
+  MISSION.md
 public/
   index.php
   assets/
