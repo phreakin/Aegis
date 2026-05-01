@@ -126,8 +126,13 @@ This is intentional.
 ---
 
 ## 📁 Project Structure
-
-text /public       → web root /core         → system engine /config       → configuration /data         → database & vault /docs         → documentation 
+~~~
+/public → web root
+/core → system engine
+/config → configuration
+/data → database & vault
+/docs → documentation
+~~~
 
 ---
 
